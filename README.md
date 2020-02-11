@@ -1,4 +1,6 @@
 # bee-cipher
+[![Build Status](https://travis-ci.com/LantosBro/bee-cipher.svg?branch=master)](https://travis-ci.com/LantosBro/bee-cipher)
+
 The russian bees cipher
 
 Installation
