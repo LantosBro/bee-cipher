@@ -16,22 +16,50 @@
  */
 class Bee
 {
+    public $coder;
+
+    /**
+     * Bee constructor.
+     *
+     * @var object $coder Base2n init
+     */
+
     public function __construct()
     {
-        return $coder = new Base2n(2);
+        $this->coder = new Base2n(2);
     }
 
+    /**
+     * Encode text to Bee cipher
+     *
+     * @param $text
+     * @return string
+     */
     public function to_bee($text)
     {
-        $first_step = $this->encode($text);
+        $first_step = $this->coder->encode($text);
         return $this->replacer("encode", $first_step);
     }
 
+    /**
+     * Decode text from Bee cipher
+     *
+     * @param $text
+     * @return string
+     */
     public function bee_to($text)
     {
-        $first_step = $this->decode($text);
+        $first_step = $this->coder->decode($text);
         return $this->replacer("decode", $first_step);
     }
+
+    /**
+     * Bee char replacer
+     *
+     * @param string $type Type of replacing Encode or Decode
+     * @param string $input Text for replacing
+     * @return string
+     */
 
     private function replacer($type, $input)
     {
