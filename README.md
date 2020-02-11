@@ -5,7 +5,7 @@ Installation
 ------------------
 
 ```shell script
-composer require lantosbro/bee-cipher
+composer require lantosbro/bee-cipher:0.0.1
 ```
 
 Usage
