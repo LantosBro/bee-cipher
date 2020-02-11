@@ -1,0 +1,25 @@
+{
+  "name": "lantosbro/bee-cipher",
+  "description": "The russian bees cipher translator.",
+  "keywords": [
+    "bee",
+    "cipher"
+  ],
+  "type": "library",
+  "homepage": "https://github.com/LantosBro/bee-cipher",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Malik Nazimanov (Lantos/LantosBro)",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "ademarre/binary-to-text-php": "^3.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "bee": ""
+    }
+  }
+}
