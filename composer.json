@@ -1,7 +1,7 @@
 {
   "name": "lantosbro/bee-cipher",
   "description": "The russian bees cipher translator.",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "keywords": [
     "bee",
     "cipher"
