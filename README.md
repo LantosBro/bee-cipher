@@ -3,6 +3,8 @@
 
 The russian bees cipher PHP Library
 
+Try it here: [BONK](https://xn--f1aa3db.xn--p1ai/)
+
 Installation
 ------------------
 
