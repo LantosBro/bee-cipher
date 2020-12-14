@@ -5,15 +5,13 @@ The russian bees cipher PHP Library
 
 Try it here: [BONK](https://xn--f1aa3db.xn--p1ai/)
 
-Installation
-------------------
+# Installation
 
 ```shell script
 composer require lantosbro/bee-cipher:dev-master
 ```
 
-Usage
-------------------
+# Usage
 
 ```php
 require_once __DIR__."/vendor/autoload.php";
