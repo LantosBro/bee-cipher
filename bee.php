@@ -16,7 +16,7 @@
  */
 class Bee
 {
-    public $coder;
+    protected $coder;
 
     /**
      * Bee constructor.
